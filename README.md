@@ -28,8 +28,35 @@ This study, hence, aims to evaluate the general relationship between land use an
 - Hydrology Shapefiles
 
 ### ✧ Tools & Software
+- Python for Script/Modeling
+- ArcGIS & QGIS for Mapping
 
 ## ✦ Methodology
+
+The study sites for this analysis include Providence, Rhode Island and Boston, Massachusetts. The goal was to accomplish the study across two different cities, to equally compare how [coastal] inundation affects varying demographic groups (i.e., assess bias in vulnerability). 
+
+**Preliminary / Exploratory Analysis**
+-	Retrieve shapefile boundaries and hydrological features for selected cities  
+-	Download DEM for specific areas (via API call in Python / USGS website, *mosaic tiles if needed*)
+-	Download Land Use (NLCD)
+-	Download Block-Group Level Demographic Data
+-	Clip data to study sites, reproject (via rasterio / QGIS)
+
+**Hydrological**
+-	Fill in any sinks in DEM data
+-	Calculate hydrological parameters (*Flow direction and accumulation*) 
+-	Generate HAND Model
+- Apply specific threshold (i.e., 0.5, 1, 2, 3, 4, 5 m), to delineate potential flood zones 
+
+**Land Use**
+- Determine land use distribution and percent coverage per type
+- Spatial overlay (i.e., via rasterstats, zonal_stats, geopandas) 
+- Calculate proportion of each land usage within flood zones (*for each inundation threshold*)
+
+**Societal Implications - Demographics**
+-	Determine prominent race groups per block-group and total percentage
+- Spatial overlay (i.e., via rasterstats, zonal_stats, geopandas) 
+-	Calculate proportion of each race group within flood zones (*for each inundation threshold*)
 
 ***
 
