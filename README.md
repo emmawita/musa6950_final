@@ -17,19 +17,22 @@ While the warming of the atmosphere and oceans are often placed at the forefront
 Nevertheless, historically marginalized groups are often confided to areas with rather poor housing conditions and are segregated to extents within floodplains. Therefore, understanding how land use patterns contribute to general flood risk, and how these risks intersect with various sociodemographic factors, is crucial for developing equitable, climate-resilient cities. 
 
 ### ✧ Objective
-This study, hence, aims to evaluate the general relationship between land use and flood hazards in selected [coastal] cities, and assessing whether certain sociodemographic groups are more vulnerability to these risks. 
+This project aims to assess the intersection of environmental hazards and social vulnerability in two coastal U.S. cities—Providence, Rhode Island, and Boston, Massachusetts. The goal is to evaluate how flood risk correlates with land use patterns and whether specific sociodemographic groups face disproportionate exposure to inundation hazards.
 
 ***
 
 ### ✧ Datasets
-- USGS Digital Elevation Model (DEM) Tiles
-- NLCD Land Use
-- City Boundary Shapefiles
-- Hydrology Shapefiles
+
+To conduct this analysis, multiple geospatial were utilized:
+- **USGS Digital Elevation Model** (DEM) Tiles
+- **NLCD Land Use**
+- **City Boundary** Shapefiles: Providence and Boston
+- **Hydrology** Shapefiles: Rivers, Oceans, Ponds, etc. 
+- **ACS Census Block-Groups**: Race
 
 ### ✧ Tools & Software
-- Python for Script/Modeling
-- ArcGIS & QGIS for Mapping
+- **Python**: Hydrological Processing, Raster Analysis, Modeling, Scripting
+- **ArcGIS & QGIS**: Data Clipping/Processing, Visualization, Data Collection
 
 ## ✦ Methodology
 
@@ -95,7 +98,12 @@ Racial disparities in flood vulnerability were evident in **Boston** but not in 
 Future resilience efforts should prioritize equitable adaptation, integrating land use planning, green infrastructure, and community-driven strategies to reduce both physical and social vulnerabilities to flooding.
 
 **Future research** should target: 
-- Testing accuracy of models (i.e., HAND) & improving quality
+
+a) Modeling
+- Incorporate more advanced hydrological models
+- Test accuracy of models (i.e., HAND) against observed flood records [FEMA] & improving quality
+
+b) Socioeconomic Integration & Broader Replicability
 - Checking trends of racial disparities in different cities
 - Expanding to other sociodemographic factors (i.e., poverty, ownership, income)
 
