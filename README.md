@@ -62,6 +62,28 @@ The study sites for this analysis include Providence, Rhode Island and Boston, M
 
 ## ✦ Key Results & Findings
 
+**General Flooding**
+- Providence becomes more flooded at the highest indunation threshold than Boston.
+- **Providence**: 0.5 m Threshold = 24.78% v. 5 m Threshold = 74.23%
+- **Boston**: 0.5 m Threshold = 24.50% v. 5 m Threshold = 64.69%
+- *However, the overall topology and size of the cities need to be factored in*
+
+
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/f1a52f45-6ad7-4b5d-84e8-0feaddc8f316" />
+
+(*Inundation map for Providence*)
+
+**Flooding v. Land Use**
+- For both cities, 'Developed Land' consistently constituded greater portion of the inundated land for all thresholds
+- Typically composing >40% of total inundated land
+
+**Flooding v. Demographics**
+- In Providence, prominent race in block-groups included White and Hispanic/Latino
+- As the inundation threshold increased **White** populations became more vulnerable (i.e., greater portion of those block-groups were covered by simulated inundation)
+- In Boston, prominent race in block-groups included White, Hispanic/Latino, Multi-racial, Asian and Black
+- As the inundation threshold increased **Hispanic/Latino** and **Black** populations became more vulnerable
+
 ***
 
 ## ✦ Conclusion & Next Steps
